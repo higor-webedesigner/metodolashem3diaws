@@ -315,7 +315,7 @@ function Index() {
           </p>
         </div>
 
-        <ul className="mt-6 space-y-3 text-lilac-100">
+        <ul className="mt-5 space-y-2.5 text-lilac-100">
           {[
             "Surgiu uma dúvida durante um atendimento?",
             "Está insegura sobre alguma técnica?",
