@@ -159,7 +159,7 @@ function Index() {
           </p>
         </div>
 
-        <ul className="mt-6 space-y-3">
+        <ul className="mt-5 space-y-2.5">
           {[
             "Volume Brasileiro",
             "Mega Brasileiro",
@@ -170,7 +170,7 @@ function Index() {
           ].map((item) => (
             <li
               key={item}
-              className="flex items-center gap-3 rounded-xl bg-card p-4 shadow-soft"
+              className="flex items-center gap-3 rounded-xl bg-card p-3.5 shadow-soft"
             >
               <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-lilac-100 text-lilac-600">
                 <Check className="h-4.5 w-4.5" />
