@@ -251,6 +251,54 @@ function Index() {
         </div>
       </Section>
 
+      {/* Bônus extras */}
+      <Section className="bg-lilac-100/60">
+        <div className="text-center">
+          <Badge>Bônus exclusivos</Badge>
+          <h2 className="mt-4 text-3xl font-bold tracking-tight text-foreground">
+            Ainda tem mais
+          </h2>
+          <p className="mt-2 text-balance text-muted-foreground">
+            Dois presentes para acelerar seus resultados.
+          </p>
+        </div>
+
+        <div className="mt-5 grid gap-4">
+          <div className="rounded-2xl bg-card p-5 shadow-soft">
+            <div className="flex items-start gap-4">
+              <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-lilac-100 text-lilac-600">
+                <Smartphone className="h-5 w-5" />
+              </span>
+              <div>
+                <h3 className="font-bold text-foreground">Acesso ao Bellum</h3>
+                <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+                  App de agendamento e controle financeiro focado na área da
+                  beleza. Você ganha <strong>1 mês grátis</strong> para
+                  organizar seus atendimentos desde o início.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="rounded-2xl bg-card p-5 shadow-soft">
+            <div className="flex items-start gap-4">
+              <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-lilac-100 text-lilac-600">
+                <ShoppingBag className="h-5 w-5" />
+              </span>
+              <div>
+                <h3 className="font-bold text-foreground">
+                  Lista de fornecedores
+                </h3>
+                <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+                  Descubra onde comprar materiais pagando mais barato e comece
+                  da melhor forma, sem gastar mais do que precisa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Section>
+
       {/* Suporte vitalício */}
       <Section className="bg-lilac-900 text-lilac-50">
         <div className="text-center">
