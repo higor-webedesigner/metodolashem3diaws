@@ -384,7 +384,7 @@ function Index() {
           </h2>
         </div>
 
-        <ul className="mt-6 space-y-3">
+        <ul className="mt-5 space-y-2.5">
           {[
             "Quem nunca trabalhou com extensão de cílios e quer começar do zero",
             "Lash Designers que desejam aperfeiçoar suas técnicas",
@@ -393,7 +393,7 @@ function Index() {
           ].map((item) => (
             <li
               key={item}
-              className="flex items-start gap-3 rounded-xl bg-card p-4 shadow-soft"
+              className="flex items-start gap-3 rounded-xl bg-card p-3.5 shadow-soft"
             >
               <Users className="mt-0.5 h-5 w-5 shrink-0 text-lilac-600" />
               <span className="text-sm leading-relaxed text-foreground">
