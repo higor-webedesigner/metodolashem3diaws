@@ -71,12 +71,14 @@ function WhatsAppButton({
 function Section({
   children,
   className = "",
+  id,
 }: {
   children: React.ReactNode;
   className?: string;
+  id?: string;
 }) {
   return (
-    <section className={`section-padding ${className}`}>
+    <section id={id} className={`section-padding ${className}`}>
       <div className="container-mobile">{children}</div>
     </section>
   );
