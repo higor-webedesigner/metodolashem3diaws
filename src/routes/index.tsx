@@ -47,7 +47,7 @@ export const Route = createFileRoute("/")({
 });
 
 const WHATSAPP_LINK =
-  "https://wa.me/?text=Oi!%20Quero%20saber%20mais%20sobre%20o%20M%C3%A9todo%20Lash%20em%203%20Dias";
+  "https://wa.me/554196887017?text=Oi!%20Quero%20saber%20mais%20sobre%20o%20M%C3%A9todo%20Lash%20em%203%20Dias.%20Pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F";
 
 function WhatsAppButton({
   children,
