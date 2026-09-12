@@ -434,7 +434,7 @@ function Index() {
           </p>
 
           <WhatsAppButton className="mt-8 w-full">
-            <span className="flex w-full items-center justify-center gap-2 rounded-xl bg-white py-4 text-lg font-bold text-lilac-700 shadow-soft transition-transform active:scale-[0.98]">
+            <span className="flex w-full items-center justify-center gap-2 rounded-xl bg-white py-3.5 text-base font-bold text-lilac-700 shadow-soft transition-transform active:scale-[0.98]">
               <MessageCircleHeart className="h-5 w-5" />
               Falar no WhatsApp
             </span>
