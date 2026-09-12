@@ -99,23 +99,23 @@ function Index() {
   return (
     <main className="min-h-screen overflow-x-hidden bg-background pb-24">
       {/* Hero */}
-      <Section className="relative pb-10 pt-8">
+      <Section className="relative pb-8 pt-6">
         <div className="absolute inset-x-0 top-0 -z-10 h-[70%] bg-gradient-to-b from-lilac-100/60 to-transparent" />
 
         <div className="flex flex-col items-center text-center">
           <Badge>Curso presencial</Badge>
 
-          <h1 className="mt-5 text-balance text-4xl font-extrabold leading-[1.1] tracking-tight text-foreground">
+          <h1 className="mt-4 text-balance text-4xl font-extrabold leading-[1.1] tracking-tight text-foreground">
             Método Lash
             <span className="block text-lilac-600">em 3 Dias</span>
           </h1>
 
-          <p className="mt-4 text-balance text-lg leading-relaxed text-muted-foreground">
+          <p className="mt-3 text-balance text-lg leading-relaxed text-muted-foreground">
             Transforme sua paixão pela beleza em uma profissão. Aprenda
             técnicas modernas e procuradas no mercado de extensão de cílios.
           </p>
 
-          <div className="mt-6 w-full overflow-hidden rounded-2xl shadow-soft">
+          <div className="mt-5 w-full overflow-hidden rounded-2xl shadow-soft">
             <img
               src={alunaPratica.url}
               alt="Aluna praticando extensão de cílios em modelo real"
@@ -124,13 +124,13 @@ function Index() {
             />
           </div>
 
-          <p className="mt-5 text-balance text-sm font-medium text-lilac-700">
+          <p className="mt-4 text-balance text-sm font-medium text-lilac-700">
             Desde o 1º dia você já pratica em modelo real.
             <br />
             Traga 3 modelos — se não conseguir, a gente te ajuda 😉
           </p>
 
-          <WhatsAppButton className="mt-6 w-full">
+          <WhatsAppButton className="mt-5 w-full">
             <span className="flex w-full items-center justify-center gap-2 rounded-xl gradient-lilac py-4 text-base font-bold text-primary-foreground shadow-lilac transition-transform active:scale-[0.98]">
               <MessageCircleHeart className="h-5 w-5" />
               Quero garantir minha vaga
@@ -139,7 +139,7 @@ function Index() {
 
           <a
             href="#conteudo"
-            className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-muted-foreground"
+            className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-muted-foreground"
           >
             Ver conteúdo do curso
             <ArrowDown className="h-4 w-4 animate-bounce" />
