@@ -203,7 +203,7 @@ function Index() {
           </h2>
         </div>
 
-        <div className="mt-6 grid gap-4">
+        <div className="mt-5 grid gap-3.5">
           {[
             {
               icon: BookOpen,
