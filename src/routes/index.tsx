@@ -365,7 +365,7 @@ function Index() {
           </h2>
         </div>
 
-        <div className="mt-6 overflow-hidden rounded-2xl bg-card shadow-soft">
+        <div className="mt-5 overflow-hidden rounded-2xl bg-card shadow-soft">
           <img
             src={depoimento.url}
             alt="Depoimento de aluna sobre o curso"
@@ -406,7 +406,7 @@ function Index() {
 
       {/* Prática desde o primeiro dia */}
       <Section>
-        <div className="rounded-3xl bg-gradient-to-br from-lilac-500 to-lilac-700 p-6 text-primary-foreground shadow-lilac">
+        <div className="rounded-3xl bg-gradient-to-br from-lilac-500 to-lilac-700 p-5 text-primary-foreground shadow-lilac">
           <div className="flex items-center gap-3">
             <CalendarCheck className="h-7 w-7 shrink-0" />
             <h2 className="text-2xl font-bold">Prática desde o 1º dia</h2>
