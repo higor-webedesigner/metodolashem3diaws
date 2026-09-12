@@ -12,6 +12,8 @@ import {
   CalendarCheck,
   Users,
   ArrowDown,
+  Smartphone,
+  ShoppingBag,
 } from "lucide-react";
 
 import alunaPratica from "@/assets/aluna-pratica.jpg.asset.json";
