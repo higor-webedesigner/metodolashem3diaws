@@ -133,13 +133,13 @@ function Index() {
             </span>
           </WhatsAppButton>
 
-          <Link
-            to="/#conteudo"
+          <a
+            href="#conteudo"
             className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-muted-foreground"
           >
             Ver conteúdo do curso
             <ArrowDown className="h-4 w-4 animate-bounce" />
-          </Link>
+          </a>
         </div>
       </Section>
 
