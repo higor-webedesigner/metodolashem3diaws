@@ -278,8 +278,9 @@ function Index() {
           ))}
         </ul>
 
-        <p className="mt-6 text-center text-lg font-semibold text-white">
-          🤍 Eu te ensino, te acompanho e continuo com você depois do curso.
+        <p className="mt-6 flex items-center justify-center gap-2 text-center text-lg font-semibold text-white">
+          <Heart className="h-5 w-5 fill-current text-lilac-300" />
+          Eu te ensino, te acompanho e continuo com você depois do curso.
         </p>
       </Section>
 
