@@ -57,38 +57,38 @@
 :root {
   --radius: 0.875rem;
 
-  /* Warm lilac primary on a soft cream background */
-  --background: oklch(0.98 0.01 300);
-  --foreground: oklch(0.25 0.04 300);
+  /* Rich purple primary on a soft cream background */
+  --background: oklch(0.98 0.015 300);
+  --foreground: oklch(0.22 0.05 300);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.25 0.04 300);
+  --card-foreground: oklch(0.22 0.05 300);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.25 0.04 300);
-  --primary: oklch(0.55 0.14 310);
+  --popover-foreground: oklch(0.22 0.05 300);
+  --primary: oklch(0.52 0.18 295);
   --primary-foreground: oklch(0.99 0.005 300);
-  --secondary: oklch(0.94 0.03 305);
-  --secondary-foreground: oklch(0.35 0.06 305);
-  --muted: oklch(0.94 0.025 305);
-  --muted-foreground: oklch(0.5 0.05 300);
-  --accent: oklch(0.92 0.04 305);
-  --accent-foreground: oklch(0.35 0.06 305);
+  --secondary: oklch(0.93 0.04 300);
+  --secondary-foreground: oklch(0.32 0.07 300);
+  --muted: oklch(0.93 0.03 300);
+  --muted-foreground: oklch(0.48 0.06 300);
+  --accent: oklch(0.91 0.05 300);
+  --accent-foreground: oklch(0.32 0.07 300);
   --destructive: oklch(0.55 0.2 25);
   --destructive-foreground: oklch(0.99 0.005 300);
-  --border: oklch(0.88 0.03 305);
-  --input: oklch(0.88 0.03 305);
-  --ring: oklch(0.55 0.14 310);
+  --border: oklch(0.86 0.04 300);
+  --input: oklch(0.86 0.04 300);
+  --ring: oklch(0.52 0.18 295);
 
-  /* Lilac scale */
-  --lilac-50: oklch(0.97 0.02 305);
-  --lilac-100: oklch(0.93 0.04 308);
-  --lilac-200: oklch(0.87 0.07 308);
-  --lilac-300: oklch(0.78 0.11 308);
-  --lilac-400: oklch(0.68 0.14 308);
-  --lilac-500: oklch(0.55 0.14 310);
-  --lilac-600: oklch(0.45 0.13 310);
-  --lilac-700: oklch(0.36 0.11 310);
-  --lilac-800: oklch(0.28 0.09 310);
-  --lilac-900: oklch(0.2 0.07 310);
+  /* Purple scale */
+  --lilac-50: oklch(0.96 0.03 295);
+  --lilac-100: oklch(0.92 0.06 295);
+  --lilac-200: oklch(0.85 0.1 295);
+  --lilac-300: oklch(0.75 0.14 295);
+  --lilac-400: oklch(0.64 0.18 295);
+  --lilac-500: oklch(0.52 0.18 295);
+  --lilac-600: oklch(0.42 0.16 295);
+  --lilac-700: oklch(0.33 0.14 295);
+  --lilac-800: oklch(0.25 0.11 295);
+  --lilac-900: oklch(0.18 0.09 295);
 
   --cream: oklch(0.985 0.015 85);
   --gold: oklch(0.72 0.13 85);
@@ -109,10 +109,10 @@
 }
 
 @utility section-padding {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 @utility container-mobile {

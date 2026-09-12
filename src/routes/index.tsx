@@ -12,6 +12,8 @@ import {
   CalendarCheck,
   Users,
   ArrowDown,
+  Smartphone,
+  ShoppingBag,
 } from "lucide-react";
 
 import alunaPratica from "@/assets/aluna-pratica.jpg.asset.json";
@@ -97,23 +99,23 @@ function Index() {
   return (
     <main className="min-h-screen overflow-x-hidden bg-background pb-24">
       {/* Hero */}
-      <Section className="relative pb-10 pt-8">
+      <Section className="relative pb-8 pt-6">
         <div className="absolute inset-x-0 top-0 -z-10 h-[70%] bg-gradient-to-b from-lilac-100/60 to-transparent" />
 
         <div className="flex flex-col items-center text-center">
           <Badge>Curso presencial</Badge>
 
-          <h1 className="mt-5 text-balance text-4xl font-extrabold leading-[1.1] tracking-tight text-foreground">
+          <h1 className="mt-4 text-balance text-4xl font-extrabold leading-[1.1] tracking-tight text-foreground">
             Método Lash
             <span className="block text-lilac-600">em 3 Dias</span>
           </h1>
 
-          <p className="mt-4 text-balance text-lg leading-relaxed text-muted-foreground">
+          <p className="mt-3 text-balance text-lg leading-relaxed text-muted-foreground">
             Transforme sua paixão pela beleza em uma profissão. Aprenda
             técnicas modernas e procuradas no mercado de extensão de cílios.
           </p>
 
-          <div className="mt-6 w-full overflow-hidden rounded-2xl shadow-soft">
+          <div className="mt-5 w-full overflow-hidden rounded-2xl shadow-soft">
             <img
               src={alunaPratica.url}
               alt="Aluna praticando extensão de cílios em modelo real"
@@ -122,13 +124,13 @@ function Index() {
             />
           </div>
 
-          <p className="mt-5 text-balance text-sm font-medium text-lilac-700">
+          <p className="mt-4 text-balance text-sm font-medium text-lilac-700">
             Desde o 1º dia você já pratica em modelo real.
             <br />
             Traga 3 modelos — se não conseguir, a gente te ajuda 😉
           </p>
 
-          <WhatsAppButton className="mt-6 w-full">
+          <WhatsAppButton className="mt-5 w-full">
             <span className="flex w-full items-center justify-center gap-2 rounded-xl gradient-lilac py-4 text-base font-bold text-primary-foreground shadow-lilac transition-transform active:scale-[0.98]">
               <MessageCircleHeart className="h-5 w-5" />
               Quero garantir minha vaga
@@ -137,7 +139,7 @@ function Index() {
 
           <a
             href="#conteudo"
-            className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-muted-foreground"
+            className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-muted-foreground"
           >
             Ver conteúdo do curso
             <ArrowDown className="h-4 w-4 animate-bounce" />
@@ -157,7 +159,7 @@ function Index() {
           </p>
         </div>
 
-        <ul className="mt-6 space-y-3">
+        <ul className="mt-5 space-y-2.5">
           {[
             "Volume Brasileiro",
             "Mega Brasileiro",
@@ -168,7 +170,7 @@ function Index() {
           ].map((item) => (
             <li
               key={item}
-              className="flex items-center gap-3 rounded-xl bg-card p-4 shadow-soft"
+              className="flex items-center gap-3 rounded-xl bg-card p-3.5 shadow-soft"
             >
               <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-lilac-100 text-lilac-600">
                 <Check className="h-4.5 w-4.5" />
@@ -201,7 +203,7 @@ function Index() {
           </h2>
         </div>
 
-        <div className="mt-6 grid gap-4">
+        <div className="mt-5 grid gap-3.5">
           {[
             {
               icon: BookOpen,
@@ -249,6 +251,54 @@ function Index() {
         </div>
       </Section>
 
+      {/* Bônus extras */}
+      <Section className="bg-lilac-100/60">
+        <div className="text-center">
+          <Badge>Bônus exclusivos</Badge>
+          <h2 className="mt-4 text-3xl font-bold tracking-tight text-foreground">
+            Ainda tem mais
+          </h2>
+          <p className="mt-2 text-balance text-muted-foreground">
+            Dois presentes para acelerar seus resultados.
+          </p>
+        </div>
+
+        <div className="mt-5 grid gap-4">
+          <div className="rounded-2xl bg-card p-5 shadow-soft">
+            <div className="flex items-start gap-4">
+              <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-lilac-100 text-lilac-600">
+                <Smartphone className="h-5 w-5" />
+              </span>
+              <div>
+                <h3 className="font-bold text-foreground">Acesso ao Bellum</h3>
+                <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+                  App de agendamento e controle financeiro focado na área da
+                  beleza. Você ganha <strong>1 mês grátis</strong> para
+                  organizar seus atendimentos desde o início.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="rounded-2xl bg-card p-5 shadow-soft">
+            <div className="flex items-start gap-4">
+              <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-lilac-100 text-lilac-600">
+                <ShoppingBag className="h-5 w-5" />
+              </span>
+              <div>
+                <h3 className="font-bold text-foreground">
+                  Lista de fornecedores
+                </h3>
+                <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+                  Descubra onde comprar materiais pagando mais barato e comece
+                  da melhor forma, sem gastar mais do que precisa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Section>
+
       {/* Suporte vitalício */}
       <Section className="bg-lilac-900 text-lilac-50">
         <div className="text-center">
@@ -265,7 +315,7 @@ function Index() {
           </p>
         </div>
 
-        <ul className="mt-6 space-y-3 text-lilac-100">
+        <ul className="mt-5 space-y-2.5 text-lilac-100">
           {[
             "Surgiu uma dúvida durante um atendimento?",
             "Está insegura sobre alguma técnica?",
@@ -278,7 +328,7 @@ function Index() {
           ))}
         </ul>
 
-        <p className="mt-6 flex items-center justify-center gap-2 text-center text-lg font-semibold text-white">
+        <p className="mt-5 flex items-center justify-center gap-2 text-center text-lg font-semibold text-white">
           <Heart className="h-5 w-5 fill-current text-lilac-300" />
           Eu te ensino, te acompanho e continuo com você depois do curso.
         </p>
@@ -296,7 +346,7 @@ function Index() {
           </p>
         </div>
 
-        <div className="mt-6 overflow-hidden rounded-2xl shadow-soft">
+        <div className="mt-5 overflow-hidden rounded-2xl shadow-soft">
           <img
             src={antesDepois.url}
             alt="Antes e depois da extensão de cílios"
@@ -315,7 +365,7 @@ function Index() {
           </h2>
         </div>
 
-        <div className="mt-6 overflow-hidden rounded-2xl bg-card shadow-soft">
+        <div className="mt-5 overflow-hidden rounded-2xl bg-card shadow-soft">
           <img
             src={depoimento.url}
             alt="Depoimento de aluna sobre o curso"
@@ -334,7 +384,7 @@ function Index() {
           </h2>
         </div>
 
-        <ul className="mt-6 space-y-3">
+        <ul className="mt-5 space-y-2.5">
           {[
             "Quem nunca trabalhou com extensão de cílios e quer começar do zero",
             "Lash Designers que desejam aperfeiçoar suas técnicas",
@@ -343,7 +393,7 @@ function Index() {
           ].map((item) => (
             <li
               key={item}
-              className="flex items-start gap-3 rounded-xl bg-card p-4 shadow-soft"
+              className="flex items-start gap-3 rounded-xl bg-card p-3.5 shadow-soft"
             >
               <Users className="mt-0.5 h-5 w-5 shrink-0 text-lilac-600" />
               <span className="text-sm leading-relaxed text-foreground">
@@ -356,7 +406,7 @@ function Index() {
 
       {/* Prática desde o primeiro dia */}
       <Section>
-        <div className="rounded-3xl bg-gradient-to-br from-lilac-500 to-lilac-700 p-6 text-primary-foreground shadow-lilac">
+        <div className="rounded-3xl bg-gradient-to-br from-lilac-500 to-lilac-700 p-5 text-primary-foreground shadow-lilac">
           <div className="flex items-center gap-3">
             <CalendarCheck className="h-7 w-7 shrink-0" />
             <h2 className="text-2xl font-bold">Prática desde o 1º dia</h2>
