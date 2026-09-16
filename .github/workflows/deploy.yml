@@ -29,6 +29,12 @@ jobs:
 
       - name: Fazer build
         run: bun run build
+        
+      - name: Ver arquivos gerados
+        run: |
+          echo "=== .output/public ==="
+          find .output/public -maxdepth 3 -type f | sort
+
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
