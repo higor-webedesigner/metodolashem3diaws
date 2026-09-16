@@ -36,7 +36,8 @@ jobs:
       - name: Preparar arquivos
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+  path: './.output/public'
+
 
   deploy:
     needs: build
