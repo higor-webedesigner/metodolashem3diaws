@@ -113,7 +113,7 @@ function Index() {
 
           <div className="mt-5 w-full overflow-hidden rounded-2xl shadow-soft">
             <img
-              src="/metodolashem3diaws/aluna-pratica.jpg"
+              src="/metodolashem3diaws/Aluna-pratica.jpg"
               alt="Aluna praticando extensão de cílios em modelo real"
               className="h-auto w-full object-cover"
               loading="eager"
@@ -344,7 +344,7 @@ function Index() {
 
         <div className="mt-5 overflow-hidden rounded-2xl shadow-soft">
           <img
-            src="/metodolashem3diaws/antes-depois.jpg"
+            src="/metodolashem3diaws/Antes-depois.jpg"
             alt="Antes e depois da extensão de cílios"
             className="h-auto w-full object-cover"
             loading="lazy"
@@ -363,7 +363,7 @@ function Index() {
 
         <div className="mt-5 overflow-hidden rounded-2xl bg-card shadow-soft">
           <img
-            src="/metodolashem3diaws/depoimento.jpg"
+            src="/metodolashem3diaws/Depoimento.jpg"
             alt="Depoimento de aluna sobre o curso"
             className="h-auto w-full object-cover"
             loading="lazy"
