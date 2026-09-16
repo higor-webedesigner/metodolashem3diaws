@@ -344,7 +344,7 @@ function Index() {
 
         <div className="mt-5 overflow-hidden rounded-2xl shadow-soft">
           <img
-            src="/metodolashem3diaws/antes-e-depois.jpg
+            src="/metodolashem3diaws/antes-e-depois.jpg"
             alt="Antes e depois da extensão de cílios"
             className="h-auto w-full object-cover"
             loading="lazy"
@@ -363,7 +363,7 @@ function Index() {
 
         <div className="mt-5 overflow-hidden rounded-2xl bg-card shadow-soft">
           <img
-            src="/metodolashem3diaws/Depoimento-1.jpg
+            src="/metodolashem3diaws/Depoimento-1.jpg"
             alt="Depoimento de aluna sobre o curso"
             className="h-auto w-full object-cover"
             loading="lazy"
