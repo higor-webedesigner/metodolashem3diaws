@@ -16,10 +16,6 @@ import {
   ShoppingBag,
 } from "lucide-react";
 
-import alunaPratica from "@/assets/aluna-pratica.jpg.asset.json";
-import depoimento from "@/assets/depoimento.jpg.asset.json";
-import antesDepois from "@/assets/antes-depois.jpg.asset.json";
-
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
